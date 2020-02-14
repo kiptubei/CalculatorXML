@@ -17,8 +17,8 @@ import org.w3c.dom.Document;
 public class Xml2Csv {
 
 	public static void main(String[] args) throws Exception{
-		 File stylesheet = new File("src/main/resources/style.xsl");
-	        File xmlSource = new File("src/main/resources/data.xml");
+		 File stylesheet = new File("style.xsl");
+	        File xmlSource = new File("data3.xml");
 
 	        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 	        DocumentBuilder builder = factory.newDocumentBuilder();
@@ -28,7 +28,7 @@ public class Xml2Csv {
 	        Transformer transformer = TransformerFactory.newInstance()
 	                .newTransformer(stylesource);
 	        Source source = new DOMSource(document);
-	        Result outputTarget = new StreamResult(new File("/tmp/x2.csv"));
+	        Result outputTarget = new StreamResult(new File("x2_"+System.currentTimeMillis()+".csv"));
 	        transformer.transform(source, outputTarget);
 	}
 

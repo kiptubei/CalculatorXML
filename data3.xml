@@ -1,0 +1,13 @@
+<host>
+add/0/1
+<result><description>add</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>1.0</output></result>
+<result><description>add</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>1.0</output></result>
+<result><description>add</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>1.0</output></result>
+<result><description>add</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>1.0</output></result>
+<result><description>add</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>1.0</output></result>
+<result><description>add</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>1.0</output></result>
+<result><description>add</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>1.0</output></result>
+<result><description>fac</description><inputOne>0</inputOne><output>1.0</output></result>
+<result><description>mul</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>0.0</output></result>
+<result><description>add</description><inputOne>0</inputOne><inputTwo>1</inputTwo><output>1.0</output></result>
+</host>

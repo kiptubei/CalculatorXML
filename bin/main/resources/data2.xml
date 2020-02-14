@@ -1,0 +1,14 @@
+<host>
+<result>
+<description>add</description>
+<inputOne>2</inputOne>
+<inputTwo>2</inputTwo>
+<output>4.0</output>
+</result>
+<result>
+<description>add</description>
+<inputOne>4</inputOne>
+<inputTwo>5</inputTwo>
+<output>9.0</output>
+</result>
+</host>
